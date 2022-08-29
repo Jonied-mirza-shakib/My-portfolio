@@ -1,0 +1,252 @@
+.front-end {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.front-end .javascript h3 {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.front-end .javascript h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.front-end .react h3 {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.front-end .react h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.front-end .bootstrap h3 {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.front-end .bootstrap h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+/* end front-end */
+
+.back-end .nodeJs h3 {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.back-end {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+
+.back-end .nodeJs h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.back-end .expressJs h3 {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.back-end .expressJs h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.back-end .mongoDb h3 {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.back-end .mongoDb h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+/* end back-end */
+.familiar-with{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.familiar-with .tailwindCss h3{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.familiar-with .tailwindCss h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.familiar-with .googleMap h3{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.familiar-with .googleMap h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.familiar-with .jtwToken h3{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.familiar-with .jtwToken h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+/* end familiar-with */
+.other-technologies{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+}
+.other-technologies .firebase h3{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.other-technologies .firebase h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.other-technologies .heroku h3{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.other-technologies .heroku h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.other-technologies .netlify h3{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.other-technologies .netlify h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.other-technologies .github h3{
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.other-technologies .github h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 576px){
+    .front-end {
+        display: block;
+    }
+    .front-end .javascript{
+        margin-bottom: 20px;
+    }
+    .front-end .react{
+        margin-bottom: 20px;
+    }
+    /* end front-end */
+    .back-end{
+        display: block;
+    }
+    .back-end .nodeJs{
+        margin-bottom: 20px;
+    }
+    .back-end .expressJs{
+        margin-bottom: 20px;
+    }
+    /* end back-end */
+    .familiar-with{
+        display: block;
+    }
+    .familiar-with .tailwindCss{
+        margin-bottom: 20px;
+    }
+    .familiar-with .googleMap{
+        margin-bottom: 20px;
+    }
+    /* end familiar-with */
+    .other-technologies{
+        display: block;
+    }
+    .other-technologies .firebase{
+        margin-bottom: 20px;
+    }
+    .other-technologies .heroku{
+        margin-bottom: 20px;
+    }
+    .other-technologies .netlify{
+        margin-bottom: 20px;
+    }
+}

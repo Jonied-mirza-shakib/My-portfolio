@@ -1,0 +1,53 @@
+.project-info h1 span{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.project-info h1{
+    font-size: 20px;
+    color: darkcyan;
+    margin-bottom: 10px;
+}
+.project-info p span{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.project-info p{
+    font-size: 18px;
+    color: darkcyan;
+    margin-bottom: 10px;
+    font-family: unset;
+    text-transform: capitalize;
+}
+.project-info h5 span{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.project-info h5{
+    font-size: 18px;
+    color: darkcyan;
+}
+
+
+@media screen and (max-width: 576px){
+    .project-info h1 span{
+        font-size: 20px;
+    }
+    .project-info h1{
+        font-size: 15px;
+    }
+    .project-info p span{
+        font-size: 15px;
+    }
+    .project-info p{
+        font-size: 13px;
+    }
+    .project-info h5 span{
+        font-size: 15px;
+    }
+    .project-info h5{
+        font-size: 13px;
+    }
+}

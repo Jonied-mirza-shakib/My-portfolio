@@ -1,0 +1,66 @@
+.contact-form form input{
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-form form textarea{
+    width: 100%;
+    border: 1px solid orange;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.contact-info{
+    font-size: 18px;
+    font-family: monospace;
+}
+.contact-address{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-address h3{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.contact-address span{
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+}
+.contact-address p{
+    font-size: 16px;
+}
+.contact-mail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-mail h3{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.contact-mail span{
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+}
+.contact-mail p{
+    font-size: 16px;
+}
+.contact-call{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact-call h3{
+    font-size: 25px;
+    margin-right: 10px;
+}
+.contact-call span{
+    font-size: 17px;
+    font-weight: bold;
+    display: block;
+}
+.contact-call p{
+    font-size: 16px;
+}

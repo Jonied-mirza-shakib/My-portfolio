@@ -6,7 +6,15 @@
 .home-main-first-section h2{
    font-size: 40px;
    font-weight: bold;
+   color: transparent;
+   position: relative;
+}
+.home-main-first-section h2::before{
+   content: 'I AM JONIED MIRZA SHAKIB';
    color: black;
+   white-space: nowrap;
+   position: absolute;
+   animation: animationTitle 3s linear infinite;
 }
 .home-main-first-section h6{
    font-size: 20px;
@@ -31,6 +39,156 @@
 }
 
 
+@keyframes animationTitle {
+   0%{
+      content: 'I|';
+   }
+   3%{
+      content: 'I |';
+   }
+   6%{
+      content: 'I A|';
+   }
+   9%{
+      content: 'I AM|';
+   }
+   12%{
+      content: 'I AM |';
+   }
+   15%{
+      content: 'I AM J|';
+   }
+   18%{
+      content: 'I AM JO|';
+   }
+   21%{
+      content: 'I AM JON|';
+   }
+   24%{
+      content: 'I AM JONI|';
+   }
+   27%{
+      content: 'I AM JONIE|';
+   }
+   30%{
+      content: 'I AM JONIED|';
+   }
+   33%{
+      content: 'I AM JONIED |';
+   }
+   36%{
+      content: 'I AM JONIED M|';
+   }
+   39%{
+      content: 'I AM JONIED MI|';
+   }
+   42%{
+      content: 'I AM JONIED MIR|';
+   }
+   45%{
+      content: 'I AM JONIED MIRZ|';
+   }
+   48%{
+      content: 'I AM JONIED MIRZA|';
+   }
+   51%{
+      content: 'I AM JONIED MIRZA |';
+   }
+   54%{
+      content: 'I AM JONIED MIRZA S|';
+   }
+   57%{
+      content: 'I AM JONIED MIRZA SH|';
+   }
+   60%{
+      content: 'I AM JONIED MIRZA SHA|';
+   }
+   63%{
+      content: 'I AM JONIED MIRZA SHAK|';
+   }
+   66%{
+      content: 'I AM JONIED MIRZA SHAKI|';
+   }
+   69%{
+      content: 'I AM JONIED MIRZA SHAKIB|';
+   }
+   70%,
+   76%{
+      content: 'I AM JONIED MIRZA SHAKIB|';
+   }
+   77%{
+      content: 'I AM JONIED MIRZA SHAKI|';
+   }
+   78%{
+      content: 'I AM JONIED MIRZA SHAK|';
+   }
+   79%{
+      content: 'I AM JONIED MIRZA SHA|';
+   }
+   80%{
+      content: 'I AM JONIED MIRZA SH|';
+   }
+   81%{
+      content: 'I AM JONIED MIRZA S|';
+   }
+   82%{
+      content: 'I AM JONIED MIRZA |';
+   }
+   83%{
+      content: 'I AM JONIED MIRZA|';
+   }
+   84%{
+      content: 'I AM JONIED MIRZ|';
+   }
+   85%{
+      content: 'I AM JONIED MIR|';
+   }
+   86%{
+      content: 'I AM JONIED MI|';
+   }
+   87%{
+      content: 'I AM JONIED M|';
+   }
+   88%{
+      content: 'I AM JONIED |';
+   }
+   89%{
+      content: 'I AM JONIED|';
+   }
+   90%{
+      content: 'I AM JONIE|';
+   }
+   91%{
+      content: 'I AM JONI|';
+   }
+   92%{
+      content: 'I AM JON|';
+   }
+   93%{
+      content: 'I AM JO|';
+   }
+   94%{
+      content: 'I AM J|';
+   }
+   95%{
+      content: 'I AM |';
+   }
+   96%{
+      content: 'I AM|';
+   }
+   97%{
+      content: 'I A|';
+   }
+   98%{
+      content: 'I |';
+   }
+   99%{
+      content: 'I|';
+   }
+   100%{
+      content: 'I|';
+   }
+}
 
 
 @media screen and (max-width: 576px){

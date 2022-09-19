@@ -11,7 +11,7 @@ const Skill = () => {
     return (
      <div className='bg-base-200 pb-20'>
            <div style={{width:'90%',margin:'auto'}}>
-            <h1 className='text-5xl text-center font-bold pt-14'>MY SKILL</h1>
+            <h1 className='skill-title'>MY SKILL</h1>
             {/* start front-end */}
             <div>
             <h1 className='text-2xl font-bold pt-10'>FRONT-END</h1>

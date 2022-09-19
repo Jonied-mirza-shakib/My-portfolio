@@ -1,3 +1,18 @@
+.skill-title{
+    font-size: 40px;
+    color: transparent;
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+}
+.skill-title::before{
+    content: 'MY SKILL';
+    color: black;
+    position: absolute;
+    white-space: nowrap;
+    animation: skillAnimation 3s linear infinite;
+}
 .front-end {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -204,6 +219,61 @@
     text-align: center;
 }
 
+
+@keyframes skillAnimation {
+    0%{
+        content: 'M|';
+    }
+    5%{
+        content: 'MY|';
+    }
+    10%{
+        content: 'MY |';
+    }
+    15%{
+        content: 'MY  S|';
+    }
+    20%{
+        content: 'MY SK|';
+    }
+    25%{
+        content: 'MY SKI|';
+    }
+    30%{
+        content: 'MY SKIL|';
+    }
+    35%{
+        content: 'MY SKILL|';
+    }
+    36%,
+    92%{
+        content: 'MY SKILL|';
+    }
+    93%{
+        content: 'MY SKIL|';
+    }
+    94%{
+        content: 'MY SKI|';
+    }
+    95%{
+        content: 'MY SK|';
+    }
+    96%{
+        content: 'MY S|';
+    }
+    97%{
+        content: 'MY |';
+    }
+    98%{
+        content: 'MY|';
+    }
+    99%{
+        content: 'M|';
+    }
+    100%{
+        content: 'M|';
+    }
+}
 
 
 @media screen and (max-width: 576px){

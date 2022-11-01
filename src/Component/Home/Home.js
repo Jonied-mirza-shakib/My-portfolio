@@ -20,7 +20,7 @@ const Home = () => {
     <h2>I AM JONIED MIRZA SHAKIB </h2>
     <h6>MERN-STACK DEVELOPER</h6>
     <p className='home-me-about'>Hi, my name is Jonied Mirza Shakib and I am a MERN-Stack developer with 1.5 years of experience with modern technologies like React, Tailwind CSS, Node js, Mongo DB, Express JS etc..</p>
-     <a type='button' className='btn btn-secondary' href="https://drive.google.com/uc?export=download&id=1sySUCVTkmDhzqydNKTFKE3AEMnxRBy2N"> <FiDownload style={{marginRight:'20px',fontSize:'20px'}} />DOWNLOAD CV</a>
+     <a type='button' className='btn btn-secondary' href="https://drive.google.com/uc?export=download&id=1wBr0VEjxxc5cRlVGfD1-waW16WYKNYBN"> <FiDownload style={{marginRight:'20px',fontSize:'20px'}} />DOWNLOAD CV</a>
    </div>
    <div className='home-main-second-section'>
     <a href="mailto: jonied.mirza.shakib1@gmail.com"><AiOutlineMail/></a>

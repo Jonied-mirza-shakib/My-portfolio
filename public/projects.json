@@ -11,7 +11,7 @@
     {
         "name":"Motor Parts (A full-stack MERN project)",
         "description":"Implemented login system using firebase. Private Routes are ensured.Developed admin panel for users and admin where admin can do CRUD operations. Users can give reviews and they can order products after confirming payment (Stripe is integrated here).If a user wants, he can order any product, update his profile information, view his profile information, and add reviews. And see his order list.",
-        "img":"https://i.ibb.co/7pDC5cR/Screenshot-2022-08-27-151040.png",
+        "img":"https://i.ibb.co/J3twBnM/Screenshot-2022-11-01-205031.png",
         "TechnologyUsed":"React js, Router, Firebase Authentication, Tailwind CSS, DaisyUi, Node js, MongoDB, Express, Heroku, Netlify",
         "liveLink":"https://motor-parts-website.web.app/",
         "clientSideCode":"https://github.com/Jonied-mirza-shakib/motor-parts-client-side-code",
